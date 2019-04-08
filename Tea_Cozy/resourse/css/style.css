@@ -1,0 +1,133 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+/* Header Properties */
+a {
+	color: seashell;
+}
+.header {
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+}
+.logo img {
+	height: 50px;
+	width: auto;
+	margin-left: 10px;
+	align-items: center;
+}
+.nav span {
+	text-decoration: underline;
+	align-items: center;
+	margin: 10px;
+}
+.logo {
+	flex-grow: 1;
+}
+.nav {
+	flex-grow: 1;
+	text-align: right;
+}
+
+
+/* Mission Properties */
+.mission-content {
+	display: flex;
+	justify-content: center;
+}
+.mission-image {
+	background-image: url(../images/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+	text-align: center;
+}
+.text-description {
+	background-color: black;
+	font-weight: bold;
+	margin-top: 300px;
+}
+
+/*-- Main Properties --*/
+.main {
+	width: 1000px;
+	margin: auto;
+}
+.headline {
+	text-align: center;	
+	margin-top: 100px;
+}
+.tea_img {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+img {
+	height: 200px;
+	width: 300px;
+	margin: -5px 15px -5px 15px;
+}
+
+/*-- Location Properties --*/
+.location {
+	display: flex;
+	justify-content: center;
+}
+.location-image {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+}
+h2 {
+	text-align: center;
+	top: 0;
+}
+p {
+	margin-top: 10px;
+}
+.address_1, .address_2, .address_3 {
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	margin: 0px 20px 0px 20px;
+	text-align: center;
+}   
+.location_address {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.location_address h3, p {
+	justify-content: center;
+	align-content: space-around;
+	margin-bottom: 45px; 
+}
+.loc-text {
+	width: 100%;
+}
+
+/*-- Contacts Properties --*/
+.contacts {
+	text-align: center;
+	height: 200px;
+}
+.contacts h3, h5 {
+	margin-top: 50px; 
+}
+
+/*-- Footer Properties --*/
+.footer h5 {
+	text-align: left;
+	margin-left: 20px;
+}
